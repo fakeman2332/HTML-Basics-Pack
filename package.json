@@ -2,7 +2,9 @@
   "name": "html-basics-pack",
   "author": "Damir Bulatov (admin@fakeman.xyz)",
   "displayName": "HTML Basics Pack",
+  "publisher": "fakeman",
   "description": "A essentials pack to start educating html basics",
+  "icon": "./icon.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.103.0"

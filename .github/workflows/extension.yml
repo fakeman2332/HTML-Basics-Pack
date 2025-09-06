@@ -31,10 +31,10 @@ jobs:
         run: npm install -g @vscode/vsce
 
       - name: Pack the extension
-        run: npx vsce pack -o ./out/fakeman-html-basics-pack.vsix
+        run: npx vsce pack -o fakeman-html-basics-pack.vsix
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4.6.2
         with:
           name: fakeman-html-basics-pack
-          path: ./out/fakeman-html-basics-pack.vsix
+          path: fakeman-html-basics-pack.vsix

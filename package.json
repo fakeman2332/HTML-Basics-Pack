@@ -1,14 +1,23 @@
 {
   "name": "html-basics-pack",
+  "author": "Damir Bulatov (admin@fakeman.xyz)",
   "displayName": "HTML Basics Pack",
   "description": "A essentials pack to start educating html basics",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.103.0"
   },
   "categories": [
     "Extension Packs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fakeman2332/HTML-Basics-Pack"
+  },
+  "bugs": {
+    "url": "https://github.com/fakeman2332/HTML-Basics-Pack"
+  },
+  "homepage": "https://github.com/fakeman2332/HTML-Basics-Pack",
   "extensionPack": [ 
     "christian-kohler.path-intellisense", 
     "ecmel.vscode-html-css", 
